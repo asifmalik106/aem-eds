@@ -1,4 +1,4 @@
-.new_cards > ul {
+.new-cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,21 +7,22 @@
   gap: 24px;
 }
 
-.new_cards > ul > li {
+.new-cards > ul > li {
   border: 1px solid #dadada;
   background-color: green;
 }
 
-.new_cards .new_cards-card-body {
+.new-cards .new-cards-card-body {
   margin: 16px;
 }
 
-.new_cards .new_cards-card-image {
+.new-cards .new-cards-card-image {
   line-height: 0;
 }
 
-.new_cards > ul > li img {
+.new-cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
